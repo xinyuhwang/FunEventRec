@@ -1,5 +1,7 @@
 package com.project.funeventrec.database;
 
+import com.project.funeventrec.database.mysql.MySQLConnection;
+
 public interface DBConnectionSwitch {
 
     static final String DEFAULT_DB = "mysql";
